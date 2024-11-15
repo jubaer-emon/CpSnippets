@@ -9,7 +9,7 @@ for file in os.listdir():
 	name = file[:-len('.cpp')]
 
 	with open(file) as f:
-		content = f.read().replace('\\','\\\\').replace('"','\\"').splitlines()
+		content = f.read().replace('\\','\\\\').splitlines()
 	
 	snippets[name] = {
 		'scope': 'cpp',
