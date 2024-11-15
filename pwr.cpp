@@ -10,3 +10,4 @@ ll pwr(ll base, ll power, ll mod=MOD) {
     }
     return res;
 }
+
