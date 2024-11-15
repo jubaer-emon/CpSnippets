@@ -1,3 +1,4 @@
+
 ll pwr(ll base, ll power, ll mod=MOD) {
     base %= mod;
     ll res = 1;
