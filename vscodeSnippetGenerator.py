@@ -1,5 +1,6 @@
 import json,os
 
+os.chdir(os.path.dirname(__file__))
 snippets = {}
 
 for file in os.listdir():
