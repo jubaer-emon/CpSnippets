@@ -17,6 +17,7 @@ template<typename Head, typename... Tail> void dbg_out(Head H, Tail... T) { cerr
 #define pll pair<ll,ll>
 #define vl vector<ll>
 #define vvl vector<vl>
+using pi = pair<int,int>;
 
 #define f(i,s,e) for(long long int i=s;i<e;i++)
 #define sza(x) ((int)x.size())

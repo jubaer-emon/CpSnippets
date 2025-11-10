@@ -22,3 +22,5 @@ json_object = json.dumps(snippets, indent=4)
 
 with open("../.vscode/CpSnippetsGenerated.code-snippets", "w") as outfile:
 	outfile.write(json_object)
+
+print("Snippets Generated")
