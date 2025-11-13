@@ -1,4 +1,8 @@
 
+double fn() {
+    return ;
+}
+
 // f(i) is a boolean function such that f(0) <= ... <= f(n-1)
 ll binary_search(ll l, ll r) {
     while (r - l > 1) {
@@ -9,10 +13,6 @@ ll binary_search(ll l, ll r) {
             l = m; // 0 = f(m) < f(r) = 1
         }
     }
-    return fn(l);                    //return value at first 1
-}
-
-double fn() {
-    return ;
+    return fn(r);                    //return value at first 1
 }
 

@@ -1,4 +1,8 @@
 
+double fn() {
+    return ;
+}
+
 double ternary_search(double l, double r) {
     while (r - l > EPS) {
         double m1 = l + (r - l) / 3;
@@ -11,9 +15,5 @@ double ternary_search(double l, double r) {
             r = m2;
     }
     return fn(l);                    //return the maximum of f(x) in [l, r]
-}
-
-double fn() {
-    return ;
 }
 
