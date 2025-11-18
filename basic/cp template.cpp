@@ -1,4 +1,4 @@
-#include <bits/stdc++.h>
+w#include <bits/stdc++.h>
 using namespace std;
 
 template<typename A, typename B> ostream& operator<<(ostream &os, const pair<A, B> &p) { return os << '(' << p.first << ", " << p.second << ')'; }

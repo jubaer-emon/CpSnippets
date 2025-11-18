@@ -3,20 +3,21 @@ import json,os
 os.chdir(os.path.dirname(__file__))
 snippets = {}
 
-for file in os.listdir():
-	if not file.endswith('.cpp'): continue
+for root, _, files in os.walk('.'):
+	for filename in files:		
+		if not filename.endswith('.cpp'): continue
 
-	name = file[:-len('.cpp')]
+		name = filename[:-len('.cpp')]
 
-	with open(file) as f:
-		content = f.read().replace('\\','\\\\').splitlines()
-	
-	snippets[name] = {
-		'scope': 'cpp',
-		'prefix': name,
-		'body': content
-	}
-
+		with open(os.path.join(root, filename)) as f:
+			content = f.read().replace('\\','\\\\').splitlines()
+		
+		snippets[name] = {
+			'scope': 'cpp',
+			'prefix': name,
+			'description': root,
+			'body': content
+		}
 
 json_object = json.dumps(snippets, indent=4)
 
