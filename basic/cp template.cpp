@@ -1,4 +1,4 @@
-w#include <bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
 template<typename A, typename B> ostream& operator<<(ostream &os, const pair<A, B> &p) { return os << '(' << p.first << ", " << p.second << ')'; }
@@ -19,7 +19,7 @@ using ll = long long;
 using dl = double;
 using pl = pair<ll,ll>;
 using vl = vector<ll>;
-using vvl = vector<vl>;
+using vv = vector<vl>;
 
 const int MAX_N = 1e5 + 5;
 const ll MOD = 1e9 + 7;

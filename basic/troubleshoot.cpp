@@ -1,13 +1,6 @@
 // Compile with
-// g++ -Wall -Wextra -Wshadow -Wfloat-equal -Wconversion -Wfatal-errors -g -std=c++17 -fsanitize=undefined,address
-
-// Pre-submit:
-// Write a few simple test cases if sample is not enough.
-// Are time limits close? If so, generate max cases.
-// Is the memory usage fine?
-// Could anything overflow?
-// Make sure to submit the right file.
-
+// -DLOCAL -Wall -Wextra -Wshadow -Wfloat-equal -Wconversion -Wfatal-errors -g -std=c++17
+// 
 // Wrong answer:
 // Print your solution! Print debug output, as well.
 // Are you clearing all data structures between test cases?
@@ -30,7 +23,7 @@
 // Go for a small walk, e.g. to the toilet.
 // Is your output format correct? (including whitespace)
 // Rewrite your solution from the start or let a teammate do it.
-
+// 
 // Runtime error:
 // Have you tested all corner cases locally?
 // Any uninitialized variables?
@@ -41,7 +34,7 @@
 // Invalidated pointers or iterators?
 // Are you using too much memory?
 // Debug with resubmits (e.g. remapped signals, see Various).
-
+// 
 // Time limit exceeded:
 // Do you have any possible infinite loops?
 // What is the complexity of your algorithm?
@@ -49,7 +42,17 @@
 // How big is the input and output? (consider scanf)
 // Avoid vector, map. (use arrays/unordered_map)
 // What do your teammates think about your algorithm?
-
+// 10^9 operations -> O(n) algorithm is not allowed 
+// 
 // Memory limit exceeded:
 // What is the max amount of memory your algorithm should need?
 // Are you clearing all data structures between test cases?
+// Switch from long long to int
+// 
+// Pre-submit:
+// Write a few simple test cases if sample is not enough.
+// Are time limits close? If so, generate max cases.
+// Is the memory usage fine?
+// Could anything overflow?
+// Make sure to submit the right file.
+// Limits: int ±2x10^9, ll ±9x10^18, vector 10^7 usually
