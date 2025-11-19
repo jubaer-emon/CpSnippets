@@ -1,19 +1,35 @@
+
 // Compile with
 // -DLOCAL -Wall -Wextra -Wshadow -Wfloat-equal -Wconversion -Wfatal-errors -g -std=c++17
-// 
+// config VS code with Ctrl + P > Edit Config (UI)
+// Visualize with CS Graphs, Excalidraw  
+//
 // Wrong answer:
 // Print your solution! Print debug output, as well.
 // Are you clearing all data structures between test cases?
 // Can your algorithm handle the whole range of input?
 // Read the full problem statement again.
-// Do you handle all corner cases correctly?
+// Do you handle all corner cases correctly? (N=0,1 etc.)
 // Have you understood the problem correctly?
 // Any uninitialized variables?
 // Any overflows?
 // Confusing N and M, i and j, etc.?
+// Floating point numbers
+// - Any NaNs (ex. taking the square root of a negative number)?
+// - Try using a type with more precision (ex. long double instead of double in C++).
+// - Are you printing the output to the correct amount of precision?
 // Are you sure your algorithm works?
+// - Go through the algorithm for a simple case / write some testcases to run your algorithm on.
+// - Write a test case generator and compare the outputs of your solution against
+//   that of a (simpler) slow solution, or a model solution if available.
 // What special cases have you not thought of?
 // Are you sure the STL functions you use work as you think?
+// Any undefined behavior? It can result in different outputs locally vs online. Examples:
+// - Uninitialized variables
+// - Not returning anything from non-void functions
+// - Array out of bounds (Considering using vec.at())
+// - Signed integer overflow
+// - Shifting a 32-bit integer by >=32 bits
 // Add some assertions, maybe resubmit.
 // Create some testcases to run your algorithm on.
 // Go through the algorithm for a simple case.
@@ -43,6 +59,7 @@
 // Avoid vector, map. (use arrays/unordered_map)
 // What do your teammates think about your algorithm?
 // 10^9 operations -> O(n) algorithm is not allowed 
+// Did you remove debug output before submitting?
 // 
 // Memory limit exceeded:
 // What is the max amount of memory your algorithm should need?
@@ -56,3 +73,4 @@
 // Could anything overflow?
 // Make sure to submit the right file.
 // Limits: int ±2x10^9, ll ±9x10^18, vector 10^7 usually
+
