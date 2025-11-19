@@ -20,8 +20,9 @@ using dl = double;
 using pl = pair<ll,ll>;
 using vl = vector<ll>;
 using vv = vector<vl>;
+using vp = vector<pl>;
 
-const int MAX_N = 1e5 + 5;
+const int MAX_N = 1e5 + 5; // or 1e6 + 5
 const ll MOD = 1e9 + 7;
 const ll INF = 1e9;
 const dl EPS = 1e-9;
@@ -31,8 +32,9 @@ int main() {
     ios::sync_with_stdio(0);
     cin.tie(0);
     cin.exceptions(cin.failbit);
+    
     int tcs = 1; cin >> tcs;
-    for (int tc = 1; tc <= tcs; tc++) {
+    for (ll tc = 1; tc <= tcs; tc++) {
         dbg(tc);
         
         $1

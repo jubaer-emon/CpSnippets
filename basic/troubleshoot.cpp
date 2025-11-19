@@ -40,6 +40,9 @@
 // Is your output format correct? (including whitespace)
 // Rewrite your solution from the start or let a teammate do it.
 // 
+// Stress-test:
+// Generate random input and compare output with brute-force solution
+//
 // Runtime error:
 // Have you tested all corner cases locally?
 // Any uninitialized variables?
