@@ -21,7 +21,7 @@ for root, _, files in os.walk('..'):
 
 json_object = json.dumps(snippets, indent=4)
 
-output_file = pathlib.Path.cwd().parent.parent / ".vscode/CpSnippetsGenerated.code-snippets"
+output_file = pathlib.Path.cwd().parent / ".vscode/CpSnippetsGenerated.code-snippets"
 output_file.parent.mkdir(exist_ok=True, parents=True)
 
 with output_file.open("w") as file:
