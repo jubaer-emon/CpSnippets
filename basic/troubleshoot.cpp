@@ -75,5 +75,5 @@
 // Is the memory usage fine?
 // Could anything overflow?
 // Make sure to submit the right file.
-// Limits: int ±2x10^9, ll ±9x10^18, vector 10^7 usually
+// Limits: int +2x10^9, ll +9x10^18, vector 10^7 usually
 

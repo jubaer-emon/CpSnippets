@@ -9,7 +9,7 @@ void gen_testcase() {
         cout << n << "\n";
 
         rep(i,0,n) cout << ud(1,1000)(rng) << " ";
-        cout << tc << "\n";
+        cout << "\n";
     }
     cout << "\n";
 }

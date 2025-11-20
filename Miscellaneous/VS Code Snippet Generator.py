@@ -1,9 +1,9 @@
-import json,os
+import json,os,pathlib 
 
 os.chdir(os.path.dirname(__file__))
 snippets = {}
 
-for root, _, files in os.walk('.'):
+for root, _, files in os.walk('..'):
 	for filename in files:		
 		if not filename.endswith('.cpp'): continue
 
@@ -21,7 +21,10 @@ for root, _, files in os.walk('.'):
 
 json_object = json.dumps(snippets, indent=4)
 
-with open("../.vscode/CpSnippetsGenerated.code-snippets", "w") as outfile:
-	outfile.write(json_object)
+output_file = pathlib.Path.cwd().parent.parent / ".vscode/CpSnippetsGenerated.code-snippets"
+output_file.parent.mkdir(exist_ok=True, parents=True)
+
+with output_file.open("w") as file:
+	file.write(json_object)
 
 print("Snippets Generated")
