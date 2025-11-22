@@ -14,6 +14,6 @@ dl ternary_search(dl l, dl r) {
         else
             r = m2;
     }
-    return l;                    //return the maximum of f(x) in [l, r]
+    return l;  //return the maximum of f(x) in [l, r]
 }
 

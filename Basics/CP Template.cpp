@@ -17,10 +17,13 @@ template<typename Head, typename... Tail> void dbg_out(Head H, Tail... T) { cerr
 
 using ll = long long;
 using dl = double;
+using l2 = array<ll,2>;
 using pl = pair<ll,ll>;
+using vb = vector<bool>;
 using vl = vector<ll>;
-using vv = vector<vl>;
-using vp = vector<pl>;
+using vvl = vector<vl>;
+using vl2 = vector<l2>;
+using vpl = vector<pl>;
 
 const int MAX_N = 1e5 + 5; // or 1e6 + 5
 const ll MOD = 1e9 + 7;
