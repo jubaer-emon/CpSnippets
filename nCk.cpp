@@ -1,8 +1,20 @@
-ll fact[MAXN];
+ll fact[MAXN], invfact[MAXN];
 
-ll nCk(ll n, ll k){
-    return ((fact[n] * inv(fact[k], MOD) % MOD) * inv(fact[n-k], MOD)) % MOD;
+void initNCR() {
+    fact[0] = 1;
+    ll i;
+    for (i = 1; i < MAXN; i++) {
+        fact[i] = mul(i, fact[i - 1]);
+    }
+    i--;
+    invfact[i] = inv_mod(fact[i]);
+    for (i--; i >= 0; i--) {
+        invfact[i] = mul((i + 1), invfact[i + 1]);
+    }
 }
 
-fact[0] = 1;
-f(i,1,MAXN) fact[i] = i * fact[i-1] % MOD;
+ll ncr(ll n, ll r) {
+    if (r > n || n < 0 || r < 0)
+        return 0;
+    return mul(mul(fact[n], invfact[r]), invfact[n - r]);
+}
