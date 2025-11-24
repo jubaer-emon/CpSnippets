@@ -58,9 +58,10 @@
 // How big is the input and output? (consider scanf)
 // Avoid vector, map. (use arrays/unordered_map)
 // What do your teammates think about your algorithm?
-// 10^9 operations -> O(n) algorithm is not allowed 
+// 10^9 operations -> O(n) algorithm is not allowed (10^8~5x10^8 allowed)
 // Did you remove debug output before submitting?
-// 
+// n <10 O(n!), <20 O(2^n), <400, O(n^3), <7500 O(n^2), <7e4 O(nv/n), <5e5 O(nlogn), <5e6 O(n), <1e18 O(logn) 
+//
 // Memory limit exceeded:
 // What is the max amount of memory your algorithm should need?
 // Are you clearing all data structures between test cases?
