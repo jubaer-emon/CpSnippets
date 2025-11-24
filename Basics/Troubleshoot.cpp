@@ -1,7 +1,4 @@
 
-// Compile with
-// -DLOCAL -Wall -Wextra -Wshadow -Wfloat-equal -Wconversion -Wfatal-errors -g -std=c++17 -D_GLIBCXX_DEBUG
-// config VS code with Ctrl + P > Edit Config (UI)
 // Visualize with CS Graphs, Excalidraw  
 //
 // Wrong answer:
