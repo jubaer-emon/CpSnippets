@@ -22,8 +22,8 @@ using pl = pair<ll,ll>;
 using vb = vector<bool>;
 using vl = vector<ll>;
 using vvl = vector<vl>;
+using vvvl = vector<vvl>;
 using vl2 = vector<l2>;
-using vpl = vector<pl>;
 
 const int MAX_N = 1e5 + 5; // or 1e6 + 5
 const ll MOD = 1e9 + 7;
