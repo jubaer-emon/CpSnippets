@@ -11,8 +11,11 @@ Generate notebook with [codes2pdf](https://github.com/Erfaniaa/codes2pdf) in Lin
 - Download this repo as zip
 - Install cph vscode extension
 - Run the genrator python file
-- Set cph cpp compiler flags to `-DLOCAL -Wall -Wextra -Wshadow -Wfloat-equal -Wconversion -Wfatal-errors -g -std=c++17 -D_GLIBCXX_DEBUG`
+- Set cph cpp compiler flags to `-DLOCAL -Wall -Wextra -Wshadow -Wconversion -Wfloat-equal -Wduplicated-cond -Wlogical-op -Wfatal-errors -g -std=c++17 -D_GLIBCXX_DEBUG`
 - Set cph run tests shortcut to `Ctrl + Enter`
+
+## Steps when internet is not available 
+- Config VS code with `Ctrl + P > Edit Config (UI)`
 
 ## TODO
 - [x] vscode snippets generator
@@ -20,4 +23,4 @@ Generate notebook with [codes2pdf](https://github.com/Erfaniaa/codes2pdf) in Lin
 - [x] pdf generator
 - [ ] organize files into topics
 - [ ] graph snippets
-- [ ] Seps when internet is not available 
+- [ ] Steps when internet is not available 
