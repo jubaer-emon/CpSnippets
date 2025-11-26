@@ -9,7 +9,7 @@ Generate notebook with [codes2pdf](https://github.com/Erfaniaa/codes2pdf) in Lin
 
 ## Steps to setup PC if internet is available:
 - Download this repo as zip
-- Install cph vscode extension
+- Install [CPH-NG vscode extension](https://marketplace.visualstudio.com/items?itemName=langningchen.cph-ng)
 - Run the genrator python file
 - Set cph cpp compiler flags to 
 ```
