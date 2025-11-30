@@ -17,15 +17,17 @@ template<typename Head, typename... Tail> void dbg_out(Head H, Tail... T) { cerr
 
 using ll = long long;
 using dl = double;
-using l2 = array<ll,2>;
-using pl = pair<ll,ll>;
-using vb = vector<bool>;
 using vl = vector<ll>;
 using vvl = vector<vl>;
 using vvvl = vector<vvl>;
+<<<<<<< HEAD
+=======
+template<int SZ> using al = array<ll, SZ>;
+using l2 = al<2>;
+>>>>>>> bc410e2a05f5fdeb31e8bd69a6c0f5e72092a33e
 using vl2 = vector<l2>;
 
-const int MAX_N = 1e5 + 5; // or 1e6 + 5
+const int MAXN = 1e5 + 5; // or 1e6 + 5
 const ll MOD = 1e9 + 7;
 const ll INF = 1e9;
 const dl EPS = 1e-9;
@@ -36,7 +38,8 @@ int main() {
     cin.tie(0);
     cin.exceptions(cin.failbit);
     
-    int tcs = 1; cin >> tcs;
+    int tcs = 1; 
+    cin >> tcs;
     for (ll tc = 1; tc <= tcs; tc++) {
         dbg(tc);
         

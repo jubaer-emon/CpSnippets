@@ -1,4 +1,4 @@
-ll fact[MAXN], invfact[MAXN];
+al<MAXN> fact, invfact;
 
 void initNCR() {
     fact[0] = 1;
