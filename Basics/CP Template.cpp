@@ -20,11 +20,8 @@ using dl = double;
 using vl = vector<ll>;
 using vvl = vector<vl>;
 using vvvl = vector<vvl>;
-<<<<<<< HEAD
-=======
 template<int SZ> using al = array<ll, SZ>;
 using l2 = al<2>;
->>>>>>> bc410e2a05f5fdeb31e8bd69a6c0f5e72092a33e
 using vl2 = vector<l2>;
 
 const int MAXN = 1e5 + 5; // or 1e6 + 5
