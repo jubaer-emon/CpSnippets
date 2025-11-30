@@ -4,7 +4,7 @@ dl f(dl m) {
 }
 
 dl ternary_search(dl l, dl r) {
-    while (fabs(l-r) < EPS) {
+    while (fabs(l-r) > EPS) {
         dl m1 = l + (r - l) / 3;
         dl m2 = r - (r - l) / 3;
         dl f1 = f(m1);

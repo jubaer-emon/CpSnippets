@@ -1,7 +1,7 @@
-vl primes;
+vl2 primes;
 map<ll, ll> primeMap;
 
-void sieve(ll LIM = 100000){
+void sieve(ll LIM = MAXN){
     vector<bool> is_prime(LIM+1, true);
 
     is_prime[0] = is_prime[1] = false;
@@ -16,10 +16,10 @@ void sieve(ll LIM = 100000){
     }
 }
 
-vvl to_primes(ll x){
+vl2 to_primes(ll x){
     ll p = primes[0];
     ll i = 1;
-    vvl V;
+    vl2 V;
     while (x != 1 && p * p <= x){
         ll z = 0;
         while (x % p == 0)
@@ -39,7 +39,7 @@ vvl to_primes(ll x){
 
 // Need divisors of all numbers 1..n
 vector<vector<ll>> divs;
-void find_divs(ll LIM = 100000){
+void find_divs(ll LIM = MAXN){
     divs.assign(LIM+1, 0);
     for (ll i = 1; i <= LIM; i++)
         for (ll j = i; j <= LIM; j += i)

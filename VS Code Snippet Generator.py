@@ -3,7 +3,7 @@ import json,os,pathlib
 os.chdir(os.path.dirname(__file__))
 snippets = {}
 
-for root, _, files in os.walk('..'):
+for root, _, files in os.walk('.'):
 	for filename in files:		
 		if not filename.endswith('.cpp'): continue
 
