@@ -1,5 +1,5 @@
 
-dl f(ll x) {
+dl f(dl m) {
     return ;
 }
 
