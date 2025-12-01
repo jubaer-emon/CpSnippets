@@ -26,11 +26,14 @@ using vvb = vector<vb>;
 template<int SZ> using al = array<ll, SZ>;
 using l2 = al<2>;
 using vl2 = vector<l2>;
+using vvl2 = vector<vl2>;
+using vb = vector<bool>;
+using vvb = vector<vb>;
 
-const int MAXN = 1e5 + 5; // or 1e6 + 5
+const int MAXN = 1e5 + 5;
 const ll MOD = 1e9 + 7;
 const ll INF = 1e9;
-const dl EPS = 1e-9;
+const dl EPS = 1e-7;
 
 
 int main() {
