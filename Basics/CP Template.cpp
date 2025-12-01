@@ -12,6 +12,7 @@ template<typename Head, typename... Tail> void dbg_out(Head H, Tail... T) { cerr
 #endif
 
 #define rep(i,s,e) for(ll i=s; i<e; i++)
+#define repr(i,s,e) for(ll i=s; i>e; i--)
 #define all(a) (a).begin(), (a).end()
 #define sz(x) ((int)x.size())
 
@@ -20,6 +21,8 @@ using dl = double;
 using vl = vector<ll>;
 using vvl = vector<vl>;
 using vvvl = vector<vvl>;
+using vb = vector<bool>;
+using vvb = vector<vb>;
 template<int SZ> using al = array<ll, SZ>;
 using l2 = al<2>;
 using vl2 = vector<l2>;
@@ -35,12 +38,12 @@ int main() {
     cin.tie(0);
     cin.exceptions(cin.failbit);
     
-    int tcs = 1; 
-    cin >> tcs;
+    ll tcs = 1; 
+    cin >> tcs;$1
     for (ll tc = 1; tc <= tcs; tc++) {
         dbg(tc);
         
-        $1
+        $2
         
         // cout << "Case " << tc << ": ";
         cout << '\n';
