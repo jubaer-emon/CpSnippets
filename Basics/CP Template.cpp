@@ -16,6 +16,9 @@ template<typename Head, typename... Tail> void dbg_out(Head H, Tail... T) { cerr
 #define all(a) (a).begin(), (a).end()
 #define sz(x) ((int)x.size())
 
+#define ff first
+#define ss second
+
 using ll = long long;
 using dl = double;
 using vl = vector<ll>;
@@ -23,6 +26,8 @@ using vvl = vector<vl>;
 using vvvl = vector<vvl>;
 using vb = vector<bool>;
 using vvb = vector<vb>;
+using pl = pair<ll, ll>;
+using vpl = vector<pl>;
 template<int SZ> using al = array<ll, SZ>;
 using l2 = al<2>;
 using vl2 = vector<l2>;
