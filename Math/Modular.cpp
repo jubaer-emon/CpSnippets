@@ -1,4 +1,3 @@
-
 ll add(ll a, ll b, ll m=MOD){
     return (a + b) % m;
 }
@@ -26,4 +25,3 @@ ll mul(ll a, ll b, ll m=MOD){
 ll inv(ll a, ll m=MOD){
     return pwr(a,m-2);
 }
-
