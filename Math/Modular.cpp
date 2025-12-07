@@ -1,4 +1,3 @@
-#pragma region Modular Arithmetic
 
 ll add(ll a, ll b, ll m=MOD){
     return (a + b) % m;
@@ -28,4 +27,3 @@ ll inv(ll a, ll m=MOD){
     return pwr(a,m-2);
 }
 
-#pragma endregion Modular Arithmetic

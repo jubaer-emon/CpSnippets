@@ -4,9 +4,9 @@
 //
 // [Fn+1  Fn ] = [1 1]^n
 // [ Fn  Fn-1]   [1 0]
-ll fibb(ll n) {
-    vvl mat({
+ll fib(ll n) {
+    mat a({
         {1,1},
         {1,0}});
-    return pwr(mat,n)[0][1];
+    return pwr(a,n)[0][1];
 }

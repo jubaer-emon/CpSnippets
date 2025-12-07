@@ -1,5 +1,3 @@
-#pragma region Template
-
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -42,7 +40,6 @@ const ll MOD = 1e9 + 7;
 const ll INF = 1e9;
 const dl EPS = 1e-7;
 
-#pragma endregion Template
 $3
 int main() {
     ios::sync_with_stdio(0);cin.tie(0);cin.exceptions(cin.failbit);
