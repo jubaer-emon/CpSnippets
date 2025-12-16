@@ -1,6 +1,6 @@
 al<MAXN> fact, invfact;
 
-void initNCR() {
+void initNCR(ll LIM = MAXN) {
     fact[0] = 1;
     ll i;
     for (i = 1; i < MAXN; i++) {
