@@ -1,12 +1,13 @@
 
+// f(i) is a boolean function such that f(0) <= ... <= f(n-1)
 ll f(ll x) {
     return ;
 }
 
-// f(i) is a boolean function such that f(0) <= ... <= f(n-1)
-ll binary_search(ll l, ll r) {
+// r should be set to max+1
+ll binarySearch(ll l, ll r) {
     while (r - l > 1) {
-        ll m = (l + r) / 2;
+        ll m = l + (r - l) / 2;
         if (f(m)) {
             r = m; // 0 = f(l) < f(m) = 1
         } else {

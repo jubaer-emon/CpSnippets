@@ -15,7 +15,7 @@ Generate notebook with [codes2pdf](https://github.com/Erfaniaa/codes2pdf) in Lin
 ```
 -DLOCAL -Wall -Wextra -Wshadow -Wconversion -Wfloat-equal -Wduplicated-cond -Wlogical-op -Wfatal-errors -g -std=c++17 -D_GLIBCXX_DEBUG
 ```
-- Set cph run tests shortcut to `Ctrl + Enter`
+- Set cph run tests shortcut to `Ctrl + Enter` 
 
 ## Steps when internet is not available 
 - Config VS code with `Ctrl + P > Edit Config (UI)`

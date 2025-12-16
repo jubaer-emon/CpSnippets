@@ -17,11 +17,18 @@ template<typename Head, typename... Tail> void dbg_out(Head H, Tail... T) { cerr
 #define sz(x) ((int)x.size())
 #define pb push_back
 
+#define ff first
+#define ss second
+
 using ll = long long;
 using dl = double;
 using vl = vector<ll>;
 using vvl = vector<vl>;
 using vvvl = vector<vvl>;
+using vb = vector<bool>;
+using vvb = vector<vb>;
+using pl = pair<ll, ll>;
+using vpl = vector<pl>;
 template<int SZ> using al = array<ll, SZ>;
 using l2 = al<2>;
 using vl2 = vector<l2>;
@@ -34,13 +41,11 @@ const ll MOD = 1e9 + 7;
 const ll INF = 1e9;
 const dl EPS = 1e-7;
 
-
+$3
 int main() {
-    ios::sync_with_stdio(0);
-    cin.tie(0);
-    cin.exceptions(cin.failbit);
+    ios::sync_with_stdio(0);cin.tie(0);cin.exceptions(cin.failbit);
     
-    int tcs = 1; 
+    ll tcs = 1; 
     cin >> tcs;$1
     for (ll tc = 1; tc <= tcs; tc++) {
         dbg(tc);
