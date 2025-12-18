@@ -5,6 +5,7 @@ Place this folder in the workspace which may contain the `.vscode` subfolder and
 Generate notebook with [codes2pdf](https://github.com/Erfaniaa/codes2pdf) in Linux or WSL. `codes2pdf` doesn't work on windows without WSL.
 
 ## Useful shortcuts
+- `Ctrl + Shift + Win + N` for new file
 - `Ctrl + Shift + L` to change all occurances / rename 
 
 ## Steps to setup PC if internet is available:

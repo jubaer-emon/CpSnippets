@@ -24,6 +24,7 @@ using dl = double;
 using vl = vector<ll>;
 using vvl = vector<vl>;
 using vvvl = vector<vvl>;
+using vi = vector<int>;
 using vb = vector<bool>;
 using vvb = vector<vb>;
 using pl = pair<ll, ll>;

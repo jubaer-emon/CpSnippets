@@ -19,7 +19,7 @@ ll pwr(ll a, ll p, ll mod=MOD) {
 }
 
 ll mul(ll a, ll b, ll m=MOD){
-    return (a * b) % m;
+    return (__int128)a * b % m;
 }
 
 ll inv(ll a, ll m=MOD){
