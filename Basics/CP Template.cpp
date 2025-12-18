@@ -15,6 +15,7 @@ template<typename Head, typename... Tail> void dbg_out(Head H, Tail... T) { cerr
 #define repr(i,s,e) for(ll i=s; i>e; i--)
 #define all(a) (a).begin(), (a).end()
 #define sz(x) ((int)x.size())
+#define pb push_back
 
 #define ff first
 #define ss second
