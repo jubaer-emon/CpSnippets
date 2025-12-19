@@ -1,8 +1,3 @@
-#include <bits/stdc++.h>
-using namespace std;
-typedef long long ll;
-typedef long double ld;
-
 #define sz 5000
 #define M 998244353
 ll A[sz][sz];
@@ -44,32 +39,4 @@ ll power(ll Q[sz][sz], ll n, ll p)
         multiply(Q, A, n);
 
     return Q[0][0];
-}
-
-int main() {
-    //ios_base::sync_with_stdio(0);
-    //cin.tie(0);
-
-    ll n, m, k, x, y;
-    cin >> n >> m >> k;
-
-    for (ll i = 0; i < n; i++){
-        for (ll j = 0; j < n; j++){
-            A[i][j] = 1;
-            mat[i][j] = 1;
-        }
-        A[i][i] = 0;
-        mat[i][i] = 0;
-    }
-
-
-    for (ll i = 0; i < m; i++){
-        cin >> x >> y;
-        x--; y--;
-        A[x][y] = A[y][x] = 0;
-        mat[x][y] = mat[y][x] = 0;
-    }
-
-    cout << power(mat, n, k) << endl;
-    return 0;
 }

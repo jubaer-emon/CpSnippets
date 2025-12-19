@@ -1,12 +1,3 @@
-#include <bits/stdc++.h>
-#define ll long long
-#define M 1000000007
-#define PII pair<ll, ll>
-#define ff first
-#define ss second
-using namespace std;
-
-
 class Vertex{
 public:
     ll string_ends;
@@ -86,13 +77,7 @@ public:
     }
 };
 
-
-int main(){
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
-
-    Trie t(26);
-
+/*
     ll n, q;
     cin >> n >> q;
     string str;
@@ -103,13 +88,4 @@ int main(){
     }
 
     t.print_trie(0, ' ', 0);
-
-    /*
-    while(q--){
-        cin >> str;
-        cout << t.look(str) << endl;
-    }
-    */
-
-    return 0;
-}
+*/

@@ -1,7 +1,7 @@
 ll n, m;
 cin >> n >> m;
-adj.resize(n+1);
-vis.resize(n+1);
+adj.assign(n+1, vector<Edge>());
+vis.assign(n+1, false);
 rep(i, 0, m){
     ll u, v;
     cin >> u >> v;

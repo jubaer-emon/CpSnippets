@@ -1,12 +1,3 @@
-#include <bits/stdc++.h>
-#define ll long long
-#define M 1000000007
-#define PII pair<ll, ll>
-#define ff first
-#define ss second
-using namespace std;
-
-
 class Vertex{
 public:
     vector<ll> string_ends; // we will store which strings end
@@ -162,7 +153,7 @@ public:
         for (ll z : nodes[u].string_ends){
             cout << z << " ";
         }
-        cout << ")" <<endl;
+        cout << ")" << endl;
         for (ll i = 0; i < K; i++){
             if (nodes[u].next[i] != -1)
                 print_trie(nodes[u].next[i], t+1);
@@ -170,37 +161,31 @@ public:
     }
 };
 
+/*
+Trie t(26);
 
-int main(){
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
+string text;
+cin >> text;
 
-    Trie t(26);
+ll n;
+cin >> n;
 
-    string text;
-    cin >> text;
-
-    ll n;
-    cin >> n;
-
-    vector<string> patterns(n);
+vector<string> patterns(n);
 
 
-    for (ll i = 0; i < n; i++){
-        cin >> patterns[i];
-        t.add(patterns[i], i);
-    }
-
-
-    t.build_automation();
-    t.print_trie(0, 0);
-
-    vector<ll> occurs(n, 0);   // which pattern appears how many times
-    t.run_automation(text, occurs);
-
-    for (ll i = 0; i < n; i++){
-        cout << occurs[i] << endl;
-    }
-
-    return 0;
+for (ll i = 0; i < n; i++){
+    cin >> patterns[i];
+    t.add(patterns[i], i);
 }
+
+
+t.build_automation();
+t.print_trie(0, 0);
+
+vector<ll> occurs(n, 0);   // which pattern appears how many times
+t.run_automation(text, occurs);
+
+for (ll i = 0; i < n; i++){
+    cout << occurs[i] << endl;
+}
+*/

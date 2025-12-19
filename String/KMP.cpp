@@ -1,9 +1,3 @@
-#include <bits/stdc++.h>
-#define ll long long
-#define M 1000000007
-
-using namespace std;
-
 void prefix_function(string s, vector<ll> &pi) {
     ll n = s.length();
     pi = vector<ll>(n);
@@ -91,11 +85,7 @@ void count_prefixes_other(string s, string t, vector<ll> &cnt){
     */
 }
 
-
-int main(){
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
-
+/*
     string a, b;    //a is pattern
     cin >> a >> b;
 
@@ -128,6 +118,4 @@ int main(){
     for (ll i = 0; i < pos.size(); i++){
         cout << pos[i] << " ";
     }
-
-    return 0;
-}
+*/

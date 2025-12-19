@@ -1,4 +1,4 @@
-vl2 primes;
+vl primes;
 map<ll, ll> primeMap;
 
 void sieve(ll LIM = MAXN){
