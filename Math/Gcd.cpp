@@ -1,9 +1,12 @@
-ll gcd(ll a, ll b){
-    if (b == 0)
-        return a;
-    return gcd(b, a%b);
-}
+// ll gcd (ll a, ll b) {
+//     while (b) {
+//         a %= b;
+//         swap(a, b);
+//     }
+//     return a;
+// }
 
+// ax + by = gcd(a,b)
 ll egcd(ll a, ll b, ll &x, ll &y){
     if (b == 0){
         x = 1;
@@ -18,7 +21,7 @@ ll egcd(ll a, ll b, ll &x, ll &y){
 }
 
 ll lcm(ll a, ll b){
-    return a*b/gcd(a, b);
+    return a /gcd(a, b) * b;
 }
 
 // vector<ll> phi;

@@ -10,7 +10,7 @@ for root, _, files in os.walk('.'):
 		name = filename[:-len('.cpp')]
 
 		with open(os.path.join(root, filename)) as f:
-			content = f.read().replace('\\','\\\\').splitlines() + ['']
+			content = f.read().replace('\\','\\\\').splitlines() + ['','']
 		
 		snippets[name] = {
 			'scope': 'cpp',

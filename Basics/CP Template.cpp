@@ -25,6 +25,7 @@ using dl = double;
 using vl = vector<ll>;
 using vvl = vector<vl>;
 using vvvl = vector<vvl>;
+using vi = vector<int>;
 using vb = vector<bool>;
 using vvb = vector<vb>;
 using pl = pair<ll, ll>;
@@ -40,6 +41,7 @@ const int MAXN = 1e5 + 5;
 const ll MOD = 1e9 + 7;
 const ll INF = 1e9;
 const dl EPS = 1e-7;
+
 
 $3
 int main() {
